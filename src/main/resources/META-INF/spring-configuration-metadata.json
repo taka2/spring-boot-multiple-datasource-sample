@@ -1,0 +1,52 @@
+{
+	"groups": [
+		{
+			"name": "datasource.primary",
+			"type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+			"sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+		},
+		{
+			"name": "datasource.secondary",
+			"type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+			"sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+		}
+	],
+	"properties": [
+		{
+			"name": "datasource.primary.url",
+			"type": "java.lang.String",
+			"description": "JDBC url of the database.",
+			"sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+		},
+		{
+			"name": "datasource.primary.username",
+			"type": "java.lang.String",
+			"description": "Login user of the database.",
+			"sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+		},
+		{
+			"name": "datasource.primary.password",
+			"type": "java.lang.String",
+			"description": "Login password of the database.",
+			"sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+		},
+		{
+			"name": "datasource.secondary.url",
+			"type": "java.lang.String",
+			"description": "JDBC url of the database.",
+			"sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+		},
+		{
+			"name": "datasource.secondary.username",
+			"type": "java.lang.String",
+			"description": "Login user of the database.",
+			"sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+		},
+		{
+			"name": "datasource.secondary.password",
+			"type": "java.lang.String",
+			"description": "Login password of the database.",
+			"sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+		}
+	]
+}
